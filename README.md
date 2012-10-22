@@ -18,6 +18,7 @@ Or install it yourself as:
 
 ## Usage
 just provide the "keyword", "Domain" and "page limit", by default page limit will be 100.
+
 For Google UK.
 
     Ranking.new(:keyword => user.key_word, :url => "www.example.com", :limit =>100).from_google
