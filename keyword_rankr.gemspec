@@ -1,17 +1,12 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/keyword_rankr/version', __FILE__)
-
-Gem::Specification.new do |gem|
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
-
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "keyword_rankr"
-  gem.require_paths = ["lib"]
-  gem.version       = KeywordRankr::VERSION
+Gem::Specification.new do |s|
+  s.name        = 'keyword_rankr'
+  s.version     = '0.0.2'
+  s.date        = '2012-10-20'
+  s.summary     = "Get Keyword Ranking for Google Yahoo Bing UK INDIA CANADA FRANCEA!"
+  s.description = "modification of keyword_ranking. Which displays, the Google Yahoo Bing UK INDIA CANADA FRANCE Result for the Given Keyword(s)"
+  s.authors     = ["Amit Koranne"]
+  s.email       = 'aakoranne@rediff.com'
+  s.files       = ["lib/keyword_rankr.rb"]
+  s.homepage    ='http://rubygems.org/gems/keyword_rankr'
 end
