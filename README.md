@@ -21,7 +21,7 @@ just provide the "keyword", "Domain" and "page limit", by default page limit wil
 
 For Google UK.
 
-    Ranking.new(:keyword => user.key_word, :url => "www.example.com", :limit =>100).from_google
+    Ranking.new(:keyword => "your keyword", :url => "www.example.com", :limit =>100).from_google
     
 For Google USA.
 
@@ -73,7 +73,7 @@ Yahoo Canada.
     
 Yahoo France.
 
-    Ranking.new(:keyword => "your keyword", :url =>  user.domain, :limit =>100).from_yahooFR
+    Ranking.new(:keyword => "your keyword", :url =>   "www.example.com", :limit =>100).from_yahooFR
     
 ## Contributing
 
